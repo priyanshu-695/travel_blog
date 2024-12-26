@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #ffee00;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    color: #555;
+}
+
+/* About Section */
+.about {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #007bff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #ec1111;
+    color: #fff;
+}
+
+/* Stories Section */
+.stories-header {
+    background-color: #007bff;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.story-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-card img {
+    width: 100%;
+    height: auto;
+}
+
+.story-content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.story-content h3 a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.story-content p {
+    color: #555;
+    margin-top: 0.5rem;
+}
